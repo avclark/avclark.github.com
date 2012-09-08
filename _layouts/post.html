@@ -1,0 +1,17 @@
+{% include header.html %}
+
+<body>
+
+  <div class="header">
+    <a href="http://www.thegentlymad.com/" class="ss-home" title="home"></a>
+  </div>
+
+  <div class="main">
+    <h1>{{ page.title }}</h1>
+    <p class="author"><strong><em>by</em> ADAM CLARK <em>on</em> {{ post.date | date: "%A" }} {{ post.date | date: "%e" }}TH <em>of</em> {{ post.date | date: "%B" }}</strong><br><a href="http://www.instapaper.com/hello2?url=http:www.thegentlymad.com{{ page.url }}&title={{ page.title }}">Send to Instapaper</a></p>
+    {{ content }}
+
+    {% include disqus.html %}
+  </div><!-- .main -->
+
+{% include footer.html %}

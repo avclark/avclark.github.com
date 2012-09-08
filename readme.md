@@ -1,3 +1,3 @@
-# avclark.com blog
+# The Gently Mad Blog
 
 Hello world!

@@ -1,67 +1,16 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+title: The Gently Mad
+---
 
-<head>
-	<meta charset='UTF-8' />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-	<title>The Gently Mad</title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-	
-  <link rel="stylesheet" href="assets/webfonts/ss-standard.css" />
-	<link rel='stylesheet' href='assets/css/screen.css' />
-
-	<!-- Typekit -->
-	<script type="text/javascript" src="http://use.typekit.com/tvl2jkf.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-</head>
-
-<body class="homepage">
-
-  <div class="header">
-    <div class="wrap">
-      <a href="#" class="ss-home home" title="home"><span>The Gently Mad</span></a>
-    </div><!-- .wrap -->
-  </div>
-
-  <div class="article">
-    
-
-    <ul class="article-list">
-      <li class="clearfix">
-        <a href="http://www.thegentlymad.com/a-tale-of-two-kingdoms.html">
-          <p class="date">September 7, 2012</p>
-          <h2>A Tale of Two Kingdoms</h2>
-          <p class="sub">A meditation on marriage and worship.</p>
-        </a>
-      </li>
-
-      <li class="clearfix">
-        <a href="http://www.thegentlymad.com/hello-world.html">
-          <p class="date">September 5, 2012</p>
-          <h2>Hello, World?</h2>
-          <p class="sub">Thoughts on fear, perfection and shipping.</p>
-        </a>
-      </li>
-    </ul>
-  </div>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="assets/js/libs/jquery-1.7.min.js"><\/script>')</script>
-
-	<!--[if (gte IE 6)&(lte IE 8)]>
-  	<script type="text/javascript" src="assets/js/libs/selectivizr-min.js"></script>
-	<![endif]--> 
-
-	<script src='assets/js/script.js'></script>
-
-	<script>
-    var _gaq=[['_setAccount','UA-4847704-1'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
-
-</body>
-</html>
+<ul class="article-list">
+  {% for post in site.posts %}
+    <li class="clearfix">
+      <a href="{{ post.url }}">
+        <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
+        <h2>{{ post.title }}</h2>
+        <p class="sub">{{ post.sub }}</p>
+      </a>
+    </li>
+  {% endfor %}
+</ul>
