@@ -1,0 +1,182 @@
+//------------------------------------------------------------------------------
+
+  Base Styles
+
+  ------------------------------------------------------------------------------
+
+html
+  min-height: 100%
+  width: 100%
+
+body
+  min-height: 100%
+  max-width: 1440px
+  margin: 0 auto
+
+  background-color: #fcfcfc
+
+  font-family: $bodyPrimary
+  font-size: 150%
+  line-height: 1.618em
+  color: $textPrimary
+  -webkit-font-smoothing: antialiased
+  text-rendering: optimizeLegibility
+
+
+
+
+// Links
+
+a
+  //border-bottom: 1px solid $linkPrimary
+  text-decoration: none
+  color: $linkPrimary
+  +single-transition(all, .2s)
+
+  &:hover
+    border-bottom: 1px solid $linkPrimary
+
+
+
+
+// Typrography
+
+h1,
+h2,
+h3,
+h3,
+h5,
+h6,
+  font-family: $displayPrimary
+
+
+h1
+  margin-bottom: .29em
+  font-size: 3.272em
+  font-weight: 700
+  line-height: 1em
+  text-align: center
+
+h2 
+  margin-bottom: .974em
+  font-size: 1.618em
+  font-weight: 700
+  line-height: 1.618em
+  text-align: center
+
+h3 
+
+h4 
+
+h5 
+
+p
+  //text-indent: 2em
+  margin-bottom: 1.618em
+
+  &.kicker
+    font-size: 1.25em
+    line-height: 1.618em
+    margin-bottom: 1.2666em
+
+  &.author
+    font-size: 0.618em
+    line-height: 1.618em
+    color: #999999
+    margin-bottom: 2.670em
+    letter-spacing: 0.1em
+    text-align: center
+
+    &:after
+      content: ""
+      display: block
+      width: 7em
+      border-top: 1px solid #CCC
+      margin: 3em auto 2.7em
+
+    a 
+      text-transform: uppercase
+
+  &.tag 
+    text-align: center
+    font-style: italic
+
+  &.closer
+    text-align: center
+
+  &.date
+    //float: right
+    font-size: 0.618em
+    text-transform: uppercase
+    color: #999
+    margin-bottom: 1em
+
+  &.sub
+    font-style: italic
+
+  &.cite
+    font-style: italic
+
+    &:before
+      content: "—"
+      margin-right: 10px
+
+  &.article-last
+    margin-bottom: 3.263em
+
+ul.tags
+  float: right
+
+  li 
+    float: left
+    margin-left: 10px
+    font-size: 0.618em
+    text-transform: uppercase
+    color: #999
+    margin-bottom: 0
+
+em
+  font-style: italic
+
+strong, b
+  font-weight: 700
+
+ul
+  list-style: disc outside none
+
+ul.article-list
+  list-style: none
+
+  li 
+    border-bottom: 1px solid #dddddd
+    margin-bottom: 1.618em
+    //text-align: center
+
+  a
+    display: block
+    +single-transition(all, .2s)
+
+    &:hover
+      opacity: .5
+      border-bottom: 0
+      +single-transition(all, .2s)
+
+hr
+  margin: 3.236em auto
+  width: 15%
+  height: 1px
+  border-bottom: 1px solid #ccc
+
+blockquote
+  position: relative
+  margin: 0 -8.1% 1.618em
+  padding: 1.5em 6.78%
+  border-left: 10px solid #333
+  background: #E5E5E5
+  font-style: italic
+  
+  
+
+
+
+
