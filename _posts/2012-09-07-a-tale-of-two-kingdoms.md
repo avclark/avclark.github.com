@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Tale of Two Kingdoms
-sub: Thoughts on fear, perfection and shipping. 
+sub: A meditation on marriage and worship. 
 ---
 
 I've been thinking a lot about what it means that we, as human beings, were created to be worshippers. It's built into us. It's part of our DNA. We don't have a choice but to worship something. And when the proverbial rubber meets the road, we are left with only two options; we worship ourselves or we worship God.
