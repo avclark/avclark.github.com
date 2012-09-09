@@ -20,7 +20,7 @@ And in the beginning this was not a problem because we were so in love with each
 
 But it didn't take long for things to breakdown. My wife started becoming an obstacle to my kingdom and I to hers.
 
-#What Then
+##What Then
 
 It's hard to see flaws in the people you love, especially when the relationship is new. The flaws are there, but we minimize and gloss over them. We are <a href="http://en.wiktionary.org/wiki/twitterpated">twitterpated</a>, as it were, and it's normal. But as we settle in and become more comfortable with each other, we find that those little details, habits and idiosyncrasies that we once loved have become annoyances and we start to see our kingdom crumble just a bit. The dreams we had for our lives get a little chipped and dusty and enough time passes and we look at our spouse and think, "How did we get here? This is not what I thought it would be."
 
@@ -30,7 +30,7 @@ But God's grace can explode that. Consider this:
 
 >His grace purposes to expose and to free you from your bondage to you. His grace is meant to bring you to the end of yourself so that you will finally begin to place your identity, your meaning and purpose and your inner sense of well-being in him. So he places you in a comprehensive relationship with another flawed person, and he places that relationship right in the middle of a very broken world. To add to this, he designs circumstances for you that you would never have designed for yourself. All of this is meant to bring you to the end of yourself, because that is where true righteousness begins. He wants you to give up. He wants you to abandon your dream. He wants you to face the futility of trying to manipulate the other person into your service. He knows there is no life to be found in these things.
 
-<p class="cite">Paul Tripp, What did you Expect
+<p class="cite">Paul Tripp, What did you Expect</p>
 
 Amazing things started happening for me when I realized this. When I am in service to God's kingdom, my relationships take on a completely new significance and meaning. *I stop viewing people in relation to me, but in relation to God.* My wife is no longer the person who's habits sometimes annoy me, but an adopted child that God loves and has amazing plans for. I stop being pissed because she isn't doing what I want and am instead filled with excitement that *I* was chosen to help her realize her full potential in Christ. That is an amazing feeling and can completely turn the tide of a relationship.
 
