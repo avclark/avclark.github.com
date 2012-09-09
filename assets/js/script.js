@@ -17,6 +17,8 @@ $(function() {
     );
   }
 
+  $.backstretch("/uploads/avc.jpg", {speed: 150});
+
 });
 
 // Functions
