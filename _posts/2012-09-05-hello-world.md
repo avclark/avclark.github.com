@@ -44,4 +44,4 @@ Happy reading.
 
 <p class="closer">...</p>
 
-_*On a side note, publishing this article was incredibly difficult (see above). I've been in the process of designing this blog for years. But I decided yesterday (Sept. 4, 2012) to just start writing. So far this is the only page. There is no header, footer, index or comments. The rest of the site doesn't even exist yet. I'm publishing it anyway, though, because if I don't do it now, it will never happen.
+_*On a side note, publishing this article was incredibly difficult (see above). I've been in the process of designing this blog for years. But I decided yesterday (Sept. 4, 2012) to just start writing. So far this is the only page. There is no header, footer, index or comments. The rest of the site doesn't even exist yet. I'm publishing it anyway, though, because if I don't do it now, it will never happen._
