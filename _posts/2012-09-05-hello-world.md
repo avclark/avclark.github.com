@@ -38,10 +38,8 @@ That said, one thing age has brought with it is little less concern with what pe
 
 Believe me, I will find any excuse to keep from putting myself out there. But I know that, in the end, a fear-based, reactionary life will hurt only me. 
 
-So I'm resuming this blog in hopes that forcing myself out into the water will help bring about some positive changes. There are no plans or goals. I will write about anything that interests me, front-end web development, business, raising kids, marriage, faith. This is likely the only blog on the internet where you will be able to read back to back articles about CSS and Jesus. And I've thought a lot about whether that mix is appropriate, but it's all part of me. I've been learning that I shouldn't wait to act until I have the perfect solution. This blog is an exercise in <em>doing</em>, in creating movement in myself. I do hope, however, it proves useful and encouraging to others who may have found themselves with similar thoughts and in similar places. As always, I welcome your thoughts and insights. 
+So I'm resuming this blog in hopes that forcing myself out into the water will help bring about some positive changes. There are no plans or goals. I will write about anything that interests me, front-end web development, business, raising kids, marriage, faith. This is likely the only blog on the internet where you will be able to read back to back articles about CSS and Jesus. And I've thought a lot about whether that mix is appropriate, but it's all part of me. I've been learning that I shouldn't wait to act until I have the perfect solution. This blog is an exercise in *doing*, in creating movement in myself. I do hope, however, it proves useful and encouraging to others who may have found themselves with similar thoughts and in similar places. As always, I welcome your thoughts and insights. 
 
 Happy reading. 
-
-<p class="closer">...</p>
 
 _*On a side note, publishing this article was incredibly difficult (see above). I've been in the process of designing this blog for years. But I decided yesterday (Sept. 4, 2012) to just start writing. So far this is the only page. There is no header, footer, index or comments. The rest of the site doesn't even exist yet. I'm publishing it anyway, though, because if I don't do it now, it will never happen._
