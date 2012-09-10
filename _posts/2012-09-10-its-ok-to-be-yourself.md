@@ -2,7 +2,6 @@
 layout: post
 title: It's Ok to Be Yourself
 sub: Finding success in your uniqueness. 
-date: 2012-09-10 12:15:00
 ---
 
 In my <a href="http://www.thegentlymad.com/2012/09/05/hello-world/">inaugural post</a> I wrote about the crippling fear of failure and rejection that has plagued many of my creative endeavors. Many friends have expressed that they share this fear or have at various times in their life, so I want to expand on that article here and, hopefully, offer some encouragement. 
