@@ -26,6 +26,11 @@
 
   a 
     color: $textPrimary
+    border-bottom: none
+
+    &:hover
+      color: $textPrimary
+      border-bottom: 1px solid $linkPrimary
 
   .main
     padding: 3.236em 0
@@ -39,9 +44,9 @@
   a 
     font-size: 26px
     color: rgba(66, 63, 55, 0.15)
+    border-bottom: none
 
     &:hover 
-      border-bottom: none
       color: $textPrimary
 
 .main
@@ -79,6 +84,10 @@ a.home
 
 .footer a
   color: #fff
+
+  &:hover
+    color: #fff
+    border-bottom: 1px solid $linkPrimary
 
 .footer p:last-child
   margin-bottom: 0
