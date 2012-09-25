@@ -20,6 +20,6 @@ Someone once said, "The days are long, but the years are short."
 
 Well, I'm hoping to squeeze as many days out of these years as possible. Happy Birthday Izzie.
 
-<img class="wide" src="{{ production_url }}/assets/images/meandmygirl.jpg" />
+<img class="wide" src="{{ production_url }}/assets/images/meandmygirl2.jpg" />
 
 
