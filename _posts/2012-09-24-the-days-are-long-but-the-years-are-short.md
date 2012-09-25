@@ -10,7 +10,7 @@ Thinking about my oldest daughter turning 5 tomorrow is insane. I know it's a cl
 
 On this night five years ago, I was feeding my wife all sorts of funky food hoping to induce labor. Finally, early the next morning we made the drive to the hospital and later that day I held Izzie in my arms for the first time.
 
-The doctor pulled her out and immediately handed her to me soaking wet. As I cleared away the fluid from her eyes and the rest of her face, her little eyes fluttered open and they were bright blue. And then, as we started at each other, she smiled.
+The doctor pulled her out and immediately handed her to me soaking wet. As I cleared away the fluid from her eyes and the rest of her face, her little eyes fluttered open and they were bright blue. And then, as we stared at each other, she smiled.
 
 I can't describe what I felt in that moment. It was a rush of feelings really; fear, joy, love, responsibility, ecstasy, smallness, greatness. But mostly, it was the first time I had ever felt such an utterly unconditional love for someone else. I knew in that moment I would do anything for her, that me and my selfish world didn't matter anymore. 
 
