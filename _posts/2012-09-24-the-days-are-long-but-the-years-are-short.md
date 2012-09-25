@@ -16,9 +16,7 @@ I can't describe what I felt in that moment. It was a rush of feelings really; f
 
 I still feel that way. Every time she looks at me with those bright blue eyes and tells me she loves me, that feeling is there. It makes me feel so small and powerless, that I am this little girl's entire world. But I also feel thankful. Thankful that she's mine. Thankful that I get to raise her and spend the next dozen or so years with her before she moves on into her own life. 
 
-Someone once said, "The days are long, but the years are short." 
-
-Well, I'm hoping to squeeze as many days out of these years as possible. Happy Birthday Izzie.
+Someone once said, "The days are long, but the years are short." Well, I'm hoping to squeeze as many days out of these years as possible. Happy Birthday Izzie.
 
 <img class="wide" src="{{ production_url }}/assets/images/meandmygirl2.jpg" />
 
