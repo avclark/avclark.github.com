@@ -5,4 +5,5 @@ description: "The Gently Mad is a journal of life, faith and the business of the
 production_url: thegentlymad.com
 markdown: rdiscount
 permalink: /:year/:month/:day/:title
+pygments: true
 rdiscount extensions: [smart]
