@@ -2,6 +2,7 @@
 layout: screencast
 title: Simplify Your Dev Workflow with Alfred
 sub: The Gently Mad Screencast No. 1
+vimeo: 50485837
 ---
 
 This is my first screencast. It's actually my first tutorial of any kind, so forgive me for the lack of polish. It was a lot of fun to make and I plan to do a lot more of these things. Feedback is always appreciated, so let me know what you think in the comments or hit me up on Twitter. Thanks for watching. 
