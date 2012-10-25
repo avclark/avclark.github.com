@@ -12,7 +12,7 @@ I wrote [a post](http://thegentlymad.com/2012/09/21/in-search-of-depth/) a few w
 
 The reasons I launched Bottlerocket in 2010 where largely about lifestyle. I wan't to be self-employed. I wanted to make enough money to support my wife, who is a stay-at-home mom, and my kids. I wanted to have the flexibility to work from home and be around my family, to take the afternoon off and go to the park with my girls, and to generally work when and where I please. Most of these things have suffered this year as I've begun to chase more and more growth and income. 
 
-A lifestyle of "more" can never be satisfied. With more income comes more purchases, with more clients comes more employees, whith more infrastructure comes even more infrastructure. 
+A lifestyle of "more" can never be satisfied. With more income comes more purchases, with more clients comes more employees, with more infrastructure comes even more infrastructure. 
 
 I realize that if I wanted to grow a company, some of this growth has to happen. But I never wanted to grow a company. I wanted freedom and independence. I wanted to be a craftsman, an artist. And there seems to be a line where more money actually starts taking away from those things. 
 
