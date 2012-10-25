@@ -1,6 +1,6 @@
 ---
 layout: post
-title: When Enough is Enough
+title: When Enough Is Enough
 sub: On contentment and the addiction of more.
 ---
 
