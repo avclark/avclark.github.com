@@ -1,25 +1,21 @@
-{% include header.html %}
+{% include head.html %}
 
 <body class="screencast">
 
-  <div class="header">
-    <a href="http://www.thegentlymad.com/" class="ss-home" title="home"></a>
-  </div>
+  {% include header.html %}
 
-  <div class="main">
-    <div class="screencast-wrap">
-
+  <div class="wrap">
+    <div class="post {% if page.custom_type %}{{ page.custom_type }}{% endif %}">
+      
+      <p class="date">{{ page.date | date: "%B %e, %Y" }} <a href="http://www.instapaper.com/hello2?url=http:www.thegentlymad.com{{ page.url }}&title={{ page.title }}">Send to Instapaper</a></p>
+      <h2>{{ page.title }}</h2>
+      
       <iframe src="http://player.vimeo.com/video/{{ page.vimeo }}" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-      <div class="shownotes-wrap">
-        <h1>{{ page.title }}</h1>
-        <p class="author"><strong><em>by</em> ADAM CLARK <em>on</em> {{ page.date | date: "%A" }} {{ page.date | date: "%e" }}TH <em>of</em> {{ page.date | date: "%B" }}, {{ page.date | date: "%Y" }}</strong><br><a href="http://www.instapaper.com/hello2?url=http:www.thegentlymad.com{{ page.url }}&title={{ page.title }}">Send to Instapaper</a></p>
-        {{ content }}
+      <p>{{ content }}</p>
 
-        {% include disqus.html %}
-      </div><!-- .shownotes-wrap -->
-
-    </div><!-- .screencast-wrap -->
-  </div><!-- .main -->
+      {% include disqus.html %}
+    </div><!-- .post -->
+  </div><!-- .wrap -->
 
 {% include footer.html %}

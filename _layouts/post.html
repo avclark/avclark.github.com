@@ -1,17 +1,18 @@
-{% include header.html %}
+{% include head.html %}
 
 <body>
 
-  <div class="header">
-    <a href="http://www.thegentlymad.com/" class="ss-home" title="home"></a>
-  </div>
+  {% include header.html %}
 
-  <div class="main">
-    <h1>{{ page.title }}</h1>
-    <p class="author"><strong><em>by</em> ADAM CLARK <em>on</em> {{ page.date | date: "%A" }} {{ page.date | date: "%e" }}TH <em>of</em> {{ page.date | date: "%B" }}, {{ page.date | date: "%Y" }}</strong><br><a href="http://www.instapaper.com/hello2?url=http:www.thegentlymad.com{{ page.url }}&title={{ page.title }}">Send to Instapaper</a></p>
-    {{ content }}
+  <div class="wrap">
+    <div class="post {% if page.custom_type %}{{ page.custom_type }}{% endif %}">
+      <p class="date">{{ page.date | date: "%B %e, %Y" }} <a href="http://www.instapaper.com/hello2?url=http:www.thegentlymad.com{{ page.url }}&title={{ page.title }}">Send to Instapaper</a></p>
+      <h2>{{ page.title }}</h2>
 
-    {% include disqus.html %}
-  </div><!-- .main -->
+      {{ content }}
+      
+      {% include disqus.html %}
+    </div>
+  </div><!-- .wrap -->
 
 {% include footer.html %}

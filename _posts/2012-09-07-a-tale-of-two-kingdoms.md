@@ -2,6 +2,7 @@
 layout: post
 title: A Tale of Two Kingdoms
 sub: A meditation on marriage and worship. 
+custom_type: post
 ---
 
 I've been thinking a lot about what it means that we, as human beings, were created to be worshippers. It's built into us. It's part of our DNA. We don't have a choice but to worship something. And when the proverbial rubber meets the road, we are left with only two options; we worship ourselves or we worship God.
@@ -10,7 +11,7 @@ That may not seem obvious or true, but as I look back over my life and the choic
 
 In addition to being worshippers, we are also sinners. And for some reason, we seem to believe that when we put two sinners together, we won't get more sin. But we do. And often, this realization can be an awakening experience.
 
-##An Example
+### An Example
 
 When I met my wife, it was truly love at first site. We've spent nearly every day together since our first date. And in the beginning it was amazing. We were so happy and it felt like it couldn't go wrong. We would not end up divorced, like many of the couples around us. And while we haven't divorced, we've come close. And looking back I see how supremely devoted my wife and I have been to our own respective kingdoms.
 
@@ -20,7 +21,7 @@ And in the beginning this was not a problem because we were so in love with each
 
 But it didn't take long for things to breakdown. My wife started becoming an obstacle to my kingdom and I to hers.
 
-##What Then
+### What Then
 
 It's hard to see flaws in the people you love, especially when the relationship is new. The flaws are there, but we minimize and gloss over them. We are <a href="http://en.wiktionary.org/wiki/twitterpated">twitterpated</a>, as it were, and it's normal. But as we settle in and become more comfortable with each other, we find that those little details, habits and idiosyncrasies that we once loved have become annoyances and we start to see our kingdom crumble just a bit. The dreams we had for our lives get a little chipped and dusty and enough time passes and we look at our spouse and think, "How did we get here? This is not what I thought it would be."
 

@@ -2,6 +2,7 @@
 layout: post
 title: In Search of Depth
 sub: Finding meaning in an overly-connected world.
+custom_type: post
 ---
 
 I can't remember a time when I didn't feel busy. Most days my brain feels like an overstuffed file drawer in danger of collapse at any moment due the sheer amount of information that must be processed and dealt with.

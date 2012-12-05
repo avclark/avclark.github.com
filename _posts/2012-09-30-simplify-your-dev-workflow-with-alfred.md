@@ -3,11 +3,12 @@ layout: screencast
 title: Simplify Your Dev Workflow with Alfred
 sub: The Gently Mad Screencast No. 1
 vimeo: 50485837
+custom_type: screencast
 ---
 
 This is my first screencast. It's actually my first tutorial of any kind, so forgive me for the lack of polish. It was a lot of fun to make and I plan to do a lot more of these things. Feedback is always appreciated, so let me know what you think in the comments or hit me up on Twitter. Thanks for watching. 
 
-**Final Bash Script**
+### Final Bash Script
 {% highlight bash %}
 # Create Beanstalk Repository
 printf "git\n \n" | /Users/avclark/beanstalk repo:create {query}
@@ -32,7 +33,7 @@ git push beanstalk master
 /Applications/Tower.app/Contents/MacOS/gittower --add ~/sites/{query}
 {% endhighlight %}
 
-**Links**
+### Links
 
 + [Jeffrey Way's Tutorial](http://net.tutsplus.com/tutorials/tools-and-tips/how-web-developers-can-use-alfred/?search_index=2)
 + [Alfred App](http://www.alfredapp.com)

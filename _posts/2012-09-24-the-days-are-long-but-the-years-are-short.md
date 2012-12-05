@@ -2,6 +2,7 @@
 layout: post
 title: The Days Are Long But The Years Are Short
 sub: Happy Birthday Izzie
+custom_type: post
 ---
 
 We spent the evening playing and jumping, tickling and hugging, laughing, coloring and watching cartoons before she feel asleep; her last night as a 4-year-old. 
@@ -18,6 +19,6 @@ I still feel that way. Every time she looks at me with those bright blue eyes an
 
 Someone once said, "The days are long, but the years are short." Well, I'm hoping to squeeze as many days out of these years as possible. Happy Birthday Izzie.
 
-<img class="wide" src="{{ production_url }}/assets/images/meandmygirl2.jpg" />
+![]({{ production_url }}/assets/images/meandmygirl2.jpg)
 
 

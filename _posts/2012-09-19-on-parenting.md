@@ -2,6 +2,7 @@
 layout: post
 title: On Parenting 
 sub: Making the main thing the main thing.  
+custom_type: post
 ---
 
 Do you ever feel like parenting is harder than it used to be? There are so many methods and "best practices" to raising children these days, all of them supported vehemently by their proponents. If our kids eat sugar, watch TV, aren't reading by 3 and in piano lessons by 4, we're certain they're headed for a life of drug addiction and serial killing. 

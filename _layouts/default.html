@@ -1,16 +1,12 @@
-{% include header.html %}
+{% include head.html %}
 
-<body class="homepage">
+<body>
 
-  <div class="header">
-    <div class="wrap">
-      <a href="#" class="ss-home home" title="home"><span>The Gently Mad</span></a>
-    </div><!-- .wrap -->
-  </div>
+  {% include header.html %}
 
-  <div class="main">
+  <div class="wrap">
     {{ content }}
-  </div><!-- .main -->
+  </div><!-- .wrap -->
 
   {% include about.html %}
 

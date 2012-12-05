@@ -2,6 +2,7 @@
 layout: post
 title: Your Prices Don't Matter
 sub: Thoughts on quantifying your value
+custom_type: post
 ---
 
 My [post on pricing](http://thegentlymad.com/2012/10/26/you-get-what-you-price-for/) last week seems to have hit a nerve. So far, it's the most re-tweeted, favorited, read and shared article I've written. A lot of people have been emailing and asking for advise on what and how they should charge. 
