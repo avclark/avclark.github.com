@@ -2,6 +2,7 @@
 layout: post
 title: Life As An Experiment
 sub: Action vs. observation, doing vs. dreaming
+custom_type: post
 ---
 
 I've written before about fear of failure, but I don't think the point can be emphasized enough that it's ok to fail, it's ok to try something different, it's ok to experiment. 

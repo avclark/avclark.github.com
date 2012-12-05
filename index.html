@@ -3,14 +3,34 @@ layout: default
 title: The Gently Mad
 ---
 
-<ul class="article-list">
-  {% for post in site.posts %}
-    <li class="clearfix">
-      <a href="{{ post.url }}">
-        <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
-        <h2>{{ post.title }}</h2>
-        <p class="sub">{{ post.sub }}</p>
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+
+{% for post in site.posts %}
+  <div class="post {% if post.custom_type %}{{ post.custom_type }}{% endif %}">
+  
+    {% if post.custom_type == 'post' %}
+      <p class="date">{{ post.date | date: "%B %e, %Y" }} <a href="http://www.instapaper.com/hello2?url=http:www.thegentlymad.com{{ post.url }}&title={{ page.title }}">Send to Instapaper</a></p>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.content | truncatewords: 99 }}
+      
+    {% elsif post.custom_type == 'quote' %}
+      <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
+      {{ post.content }}
+      <p class="cite">{{ post.cite }}</p>
+      
+    {% elsif post.custom_type == 'link' %}
+      <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
+      <h2><a href="{{ post.custom_url }}">{{ post.title }}</a></h2>
+      {{ post.content }}
+      
+    {% elsif post.custom_type == 'screencast' %}
+      <p class="date">{{ post.date | date: "%B %e, %Y" }} <a href="http://www.instapaper.com/hello2?url=http:www.thegentlymad.com{{ post.url }}&title={{ page.title }}">Send to Instapaper</a></p>
+      
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      
+      <iframe src="http://player.vimeo.com/video/{{ post.vimeo }}" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>        
+        
+      <p>{{ post.content }}</p>
+    {% endif %}  
+      
+  </div>
+{% endfor %}

@@ -2,6 +2,7 @@
 layout: post
 title: You Get What You Price For
 sub: On the counterintuitiveness of pricing web work.
+custom_type: post
 ---
 
 As workers of the web, we are constantly trying to tell clients they get what they pay for. This year I've been learning the reverse is also true; we get what we *price* for. 

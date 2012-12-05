@@ -2,6 +2,7 @@
 layout: post
 title: Hello, World?
 sub: Thoughts on fear, perfection and shipping. 
+custom_type: post
 ---
 
 Before I was a web designer, before I was a journalist, before I was a landscaper and a dog-walker, before, even, I was out of elementary school, I used to write stories.

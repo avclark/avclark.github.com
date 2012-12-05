@@ -4,91 +4,53 @@
 
   ------------------------------------------------------------------------------
 
-.homepage 
-  background: #f5f5f5
+// GRID
+.wrap
+  width: 800px
+  margin: 0 auto
 
-  .header
-    position: static
-    padding: 1.333em 0
-    width: 100%
-    background: #fff
-
-    a:hover
-      border-bottom: none 
-
-
-  .home 
-    color: $textPrimary
-
-    span
-      display: block
-
-  h2
-    margin-bottom: 0
-    text-align: left
-    line-height: 1.2em
-
-  a 
-    color: $textPrimary
-    border-bottom: none
-
-    &:hover
-      color: $textPrimary
-      border-bottom: 1px solid $linkPrimary
-
-  .main
-    padding: 3.236em 0
+.post 
+  margin-bottom: 130px
 
 
 
-.screencast
-  background: #f5f5f5
 
-  .main
-    width: 70%
-
-  .shownotes-wrap
-    padding: 3em 4em
-
-  .screencast-wrap
-    padding: 0
-    background-color: #fff
-
-  h1
-    font-size: 2.618em
-    text-align: left
-    margin-bottom: .59em
+// HEADER
+.header
+  position: relative
+  width: 100%
+  border-top: 10px solid #00d2be
+  padding: 100px 0
 
   p 
-    font-size: .8333em
-    line-height: 1.618em
+    margin-bottom: 0
 
-    &.author
-      font-size: 0.618em
-      line-height: 1.618em
-      color: #999999
-      margin-bottom: 2.670em
-      letter-spacing: 0.1em
-      text-align: left
-      text-transform: uppercase
+  a 
+    color: #999
+    border-bottom: none
 
-      &:after
-        content: ""
-        display: block
-        width: 100%
-        border-top: 1px solid #CCC
-        margin: 3em auto 2.7em
+    &:hover 
+      color: $textPrimary
 
-  p.author + p
-    font-size: .8333em
-    line-height: 1.618em
-    margin-bottom: 1.618em
+
+img
+  //border: 1px solid rgba(66, 63, 55, 0.15)
+  position: relative
+  width: 800px
+  height: auto
+  margin-left: -80px
+  //left: 50%
+  //margin-left: -500px
+
+
+
+
+// SCREENCASTS
+.screencast
 
   pre
-    margin-left: -3em
-    margin-right: -3em
     margin-bottom: 2.5888em
-    padding: 3em
+    padding: 3em 80px
     font-family: Consolas, "Lucida Console", Monaco, monospace
     font-size: .6333em
     line-height: 1.618em
@@ -103,91 +65,121 @@
     line-height: 1.618em
 
   iframe
-    margin-bottom: -13px
+    margin-bottom: 0
 
 
 
 
-.header
-  padding: 1.333em 0 0 1.333em
-  position: fixed
-
-  a 
-    font-size: 26px
-    color: rgba(66, 63, 55, 0.15)
-    border-bottom: none
-
-    &:hover 
-      color: $textPrimary
-
-.main
-  position: relative
-  padding: 6.333em 0
-  width: 60%
-  max-width: 1260px
-  margin: 0 auto
-  overflow: visible
-
-a.home
-  display: block
-
-  span
-    display: none
-    margin-top: -42px
-    margin-left: 40px
-    font-size: 0.618em
-    text-transform: uppercase
-
-img.wide
-  border: 1px solid rgba(66, 63, 55, 0.15)
-  position: relative
-  left: 50%
-  margin-left: -500px
+// QUOTES
+.quote
+  p:nth-child(2)
+    font-size: 1.618em
+    line-height: 1.3em
+    margin-bottom: 1em
 
 
-.wrap
-  width: 60%
-  max-width: 1260px
-  margin: 0 auto
 
+
+// LINKS
+.link 
+  h2
+    font-size: 1.2em
+    margin-bottom: 1.618em
+
+    a 
+      border-bottom: 1px solid $linkPrimary
+
+      &:after
+        content: "→"
+        margin-left: 20px
+
+
+
+
+
+
+// FOOTER
 .footer
   padding: 2.648em 0
   
   background-color: #222
   clear: both
 
-.footer p
-  color: #999
-  font-size: 0.773em
-  line-height: 1.618em
+  p
+    color: #999
+    font-size: 0.8em
+    line-height: 1.618em
 
-.footer a
-  color: #fff
+    &:last-child
+      margin-bottom: 0
 
-  &:hover
+  a
     color: #fff
-    border-bottom: 1px solid $linkPrimary
 
-.footer p:last-child
-  margin-bottom: 0
+    &:hover
+      color: $linkPrimary
+      border-bottom: 1px solid $linkPrimary
 
 
+
+
+// MEDIA QUERIES
 @media only screen and (max-device-width : 768px)
-  .main, .wrap
+  .wrap
     width: 80%
 
 
-@media screen and (max-width: 768px)
-  body
-    font-size: 137.5%
-  
-  .main
+@media screen and (max-width: 768px)  
+  .wrap
     width: 80%
+
+  h1,
+  h2,
+  h3,
+  h3,
+  h5,
+  h6,
+  p,
+  ul,
+  #disqus_thread
+    width: 100%
+
+  .screencast
+    pre
+      padding: 3em 20px
+
+  img
+    width: 100%
+    height: auto
+    margin-left: 0
 
 
 @media screen and (max-width: 480px)
   body
     font-size: 100%
 
-  .main, .wrap
+  .wrap
     width: 85%
+
+  .header
+    padding: 50px 0
+
+  h1,
+  h2,
+  h3,
+  h3,
+  h5,
+  h6,
+  p,
+  ul,
+  #disqus_thread
+    width: 100%
+
+  .screencast
+    pre
+      padding: 3em 20px
+
+  img
+    width: 100%
+    height: auto
+    margin-left: 0

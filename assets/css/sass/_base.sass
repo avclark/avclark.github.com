@@ -10,13 +10,10 @@ html
 
 body
   min-height: 100%
-  max-width: 1440px
-  margin: 0 auto
+  width: 100%
 
-  background-color: #fcfcfc
-
-  font-family: $bodyPrimary
-  font-size: 150%
+  font-family: $bodyFont
+  font-size: 125%
   line-height: 1.618em
   color: $textPrimary
   -webkit-font-smoothing: antialiased
@@ -48,7 +45,12 @@ h3,
 h3,
 h5,
 h6,
-  font-family: $displayPrimary
+p,
+ul,
+#disqus_thread
+  font-family: $bodyFont
+  width: 620px
+  margin: 0 auto
 
 
 h1
@@ -59,69 +61,43 @@ h1
   text-align: center
 
 h2 
-  margin-bottom: .974em
-  font-size: 1.618em
+  margin-bottom: .5em
+  font-size: 2.618em
   font-weight: 700
-  line-height: 1.618em
-  text-align: center
+  line-height: 1.1em
+  letter-spacing: -1px
+  text-align: left
+
+  a 
+    border-bottom: none
+  
 
 h3 
+  margin-bottom: .5em
+  font-weight: 700
 
 h4 
 
 h5 
 
 p
-  //text-indent: 2em
   margin-bottom: 1.618em
 
-  &.kicker
-    font-size: 1.25em
-    line-height: 1.618em
-    margin-bottom: 1.2666em
-
-  &.author
-    font-size: 0.618em
-    line-height: 1.618em
-    color: #999999
-    margin-bottom: 2.670em
-    letter-spacing: 0.1em
-    text-align: center
+  &.date
+    font-size: 14px
     text-transform: uppercase
+    color: $accentPrimary
+    margin-bottom: 25px
+    font-family: $accentFont
+    letter-spacing: 1px
 
     a 
-      color: $linkPrimary
+      margin-left: 20px
       border-bottom: none
+      color: $accentPrimary
 
       &:hover
-        border-bottom: 1px solid $linkPrimary
-
-    em 
-      text-transform: none
-
-    &:after
-      content: ""
-      display: block
-      width: 7em
-      border-top: 1px solid #CCC
-      margin: 3em auto 2.7em
-
-    a 
-      text-transform: uppercase
-
-  &.tag 
-    text-align: center
-    font-style: italic
-
-  &.closer
-    text-align: center
-
-  &.date
-    //float: right
-    font-size: 0.618em
-    text-transform: uppercase
-    color: #999
-    margin-bottom: 1em
+        color: $linkPrimary
 
   &.sub
     font-style: italic
@@ -136,21 +112,6 @@ p
   &.article-last
     margin-bottom: 3.263em
 
-p.author + p 
-  font-size: 1.25em
-  line-height: 1.618em
-  margin-bottom: 1.2666em
-
-ul.tags
-  float: right
-
-  li 
-    float: left
-    margin-left: 10px
-    font-size: 0.618em
-    text-transform: uppercase
-    color: #999
-    margin-bottom: 0
 
 em
   font-style: italic
@@ -161,23 +122,6 @@ strong, b
 ul
   list-style: disc outside none
 
-ul.article-list
-  list-style: none
-
-  li 
-    border-bottom: 1px solid #dddddd
-    margin-bottom: 1.618em
-    //text-align: center
-
-  a
-    display: block
-    +single-transition(all, .2s)
-
-    &:hover
-      opacity: .5
-      border-bottom: 0
-      +single-transition(all, .2s)
-
 hr
   margin: 3.236em auto
   width: 15%
@@ -186,11 +130,14 @@ hr
 
 blockquote
   position: relative
-  margin: 0 -8.1% 1.618em
-  padding: 1.5em 6.78%
-  border-left: 10px solid #333
-  background: #E5E5E5
+  margin-bottom: 1.618em
+  padding: 3em 
+  //border-left: 10px solid #333
+  background: #f0f5f9
   font-style: italic
+
+  p 
+    margin-bottom: 0
   
   
 

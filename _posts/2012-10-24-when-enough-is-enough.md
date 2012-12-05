@@ -2,6 +2,7 @@
 layout: post
 title: When Enough Is Enough
 sub: On contentment and the addiction of more.
+custom_type: post
 ---
 
 The past 10 months have been explosive for my company, [Bottlerocket](http://www.bottlerocketcreative.com). In 2012, we've grown in almost every way. We've grown the team, taken on more diverse projects and tripled in revenue from 2011. *(I refer to Bottlerocket as "we" because it is more than just me, however I am still the sole full-timer.)* And while the growth has been great, it has left me wondering what it is I really want to do and how I want to be spending my time. 
