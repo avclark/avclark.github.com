@@ -24,6 +24,22 @@ $(function() {
 
   });
 
+  var replaceERBTags = function() {  
+    elements.each(function() {
+      var $this = $(this),
+          txt   = $this.html();
+          console.log(txt);
+      
+      txt = txt.replace(new RegExp("&lt;%=(.+?)%&gt;", "g"), "{{$1}}");
+      txt = txt.replace(new RegExp("&lt;%(.+?)%&gt;", "g"), "{%$1%}");
+      
+      $this.html(txt);
+    });
+  };
+
+  replaceERBTags($('div.highlight').find('code.text'));
+  replaceERBTags($('p code'));
+
 });
 
 // Functions
